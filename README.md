@@ -12,3 +12,10 @@ This is a simple node.js server component to go with [Ember-cli-slack-chat](http
 
 This is just a quick example and allows any origin for requests, so edit to your needs.
 
+
+## Running
+1. git clone git@github.com:snap-fnb/ember-cli-slack-chat-node-server.git
+2. cd ember-cli-slack-chat-node-server
+3. npm install
+4. node server.js
+
