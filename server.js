@@ -8,11 +8,11 @@ var slack = new Slack(slackApiToken);
 
 // Setup users you want to invite the created channel
 // Find user ID:s here https://api.slack.com/methods/users.list/test
-var supportUserIds = ['U02UXACCS','U02A60UCV'];
+var supportUserIds = ['themmer'];
 
 // Setup Express
 var app = express();
-var server = app.listen( 1337, function() {
+var server = app.listen( 1337, "127.0.0.1", function() {
   console.log('Express listening at http://%s:%s', server.address().address, server.address().port);
 });
 
