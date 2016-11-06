@@ -17,5 +17,6 @@ This is just a quick example and allows any origin for requests, so edit to your
 1. git clone git@github.com:snap-fnb/ember-cli-slack-chat-node-server.git
 2. cd ember-cli-slack-chat-node-server
 3. npm install
-4. node server.js
+4. . setSlackApiToken.sh (setSlackApiToken.sh is not in git, see Matt)
+5. node server.js
 
